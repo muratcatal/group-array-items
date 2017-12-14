@@ -1,0 +1,35 @@
+{
+    "name": "grouping-array-items",
+    "version": "1.0.0",
+    "description": "Group json items in array",
+    "keywords": [
+        "array",
+        "json",
+        "group"
+    ],
+    "homepage": "https://github.com/muratcatal/group-array-items",
+    "author": {
+        "name": "Murat Çatal",
+        "email": "muratcatal@outlook.com"
+    },
+    "bugs": {
+        "url": "https://github.com/muratcatal/group-array-items/issues",
+        "email": "muratcatal@outlook.com"
+    },
+    "main": "dist/index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/muratcatal/group-array-items"
+    },
+    "contributors": [
+        {
+            "name": "Murat Çatal",
+            "email": "muratcatal@outlook.com",
+            "url": "http://muratcatal.com"
+        }
+    ],
+    "license": "MIT",
+    "devDependencies": {
+        "unit.js": "^2.0.0"
+    }
+}

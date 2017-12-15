@@ -1,0 +1,51 @@
+{
+    "name": "grouping-array-items",
+    "version": "1.0.0",
+    "description": "Group json items in array",
+    "keywords": [
+        "array",
+        "json",
+        "group"
+    ],
+    "homepage": "https://github.com/muratcatal/group-array-items",
+    "author": {
+        "name": "Murat Çatal",
+        "email": "muratcatal@outlook.com"
+    },
+    "bugs": {
+        "url": "https://github.com/muratcatal/group-array-items/issues",
+        "email": "muratcatal@outlook.com"
+    },
+    "main": "dist/index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/muratcatal/group-array-items"
+    },
+    "contributors": [
+        {
+            "name": "Murat Çatal",
+            "email": "muratcatal@outlook.com",
+            "url": "http://muratcatal.com"
+        }
+    ],
+    "license": "MIT",
+    "devDependencies": {
+        "babel": "^6.23.0",
+        "babel-core": "^6.26.0",
+        "babel-loader": "^7.1.2",
+        "babel-preset-es2015": "^6.24.1",
+        "chai": "^4.1.2",
+        "chai-string": "^1.4.0",
+        "mocha": "^4.0.1",
+        "webpack": "^3.10.0"
+    },
+    "scripts": {
+        "build": "webpack",
+        "test": "node node_modules\\mocha\\bin\\mocha --require babel-core/register"
+    },
+    "babel": {
+        "presets": [
+            "es2015"
+        ]
+    }
+}

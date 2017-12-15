@@ -1,4 +1,0 @@
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var groupBy=exports.groupBy=function groupBy(array,config){var result=[];var aliasForGroupItem=[];if(config.alias)aliasForGroupItem=config.alias;array.forEach(function(v,i){if(v.children&&v.children.length>0){v.children=groupBy(v.children,config)}
-var groupedItem=result.find(function(r){return r.type==="_"+v.type});var child=v;if(v.children&&v.children.length>0){child.children=v.children}
-if(!groupedItem){var alias=v.type;if(aliasForGroupItem&&aliasForGroupItem.find(function(item){return item.name===v.type})!=undefined)alias=aliasForGroupItem.find(function(item){return item.name===v.type}).alias;groupedItem={name:alias,type:"_"+v.type,children:[]};result.push(groupedItem)}
-groupedItem.children.push(child)});return result}

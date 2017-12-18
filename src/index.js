@@ -1,15 +1,3 @@
-/*
-  config:{
-      aliases: [
-          {
-              name:"Alias name for type",
-              type:"Type to be groupped"
-          }
-      ],
-      groupBy: "type",
-      childElement: ""
-  }
-*/
 const defaults = {
     aliases: [],
     groupBy: "type",

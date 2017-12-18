@@ -130,7 +130,8 @@ You will have an output as below format
 ```
 # Configuration Description
 ----
-You can configure groupBy function by sending any of configuration parameter to fit your needs.
+> You can configure groupBy function by sending any of configuration parameter to fit your needs.
+
 |   Property   	|  Type  	| Default Value 	| Description                                                                                                                                                                                                                                                                                                                                                                       	|
 |:------------:	|:------:	|:-------------:	|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
 | aliases      	|  array 	|     empty     	| an array which holds alias for grouped headers. Format of that array item is:  {   alias: "A title which will be used for instead of group-type",   name: "group-type" } Assume that you have group types `gold`,`silver` and `rock` in your json type and you want to see in your group-header titles as `My Gold`, `My Silver`,`My Rock`. {   alias: "My Gold",   name: "gold } 	|
@@ -141,10 +142,10 @@ You can configure groupBy function by sending any of configuration parameter to 
 # Change log
 ----
  - v1.0.3
-   Webpack configuration fixed
+ Webpack configuration fixed
  - v.1.0.2
- Package.json configuration fixed
-v.1.0.0
+  Package.json configuration fixed
+- v.1.0.0
 Initial release
 # Contributing
 ----

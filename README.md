@@ -102,7 +102,8 @@ const config = {
     ],
     groupBy: "type",
     childElement: "children",
-    prefix: ""
+    prefix: "",
+    generateId: true
 }
 const result = groupBy(data,config);
 ```
@@ -138,6 +139,7 @@ You will have an output as below format
 | groupBy      	| string 	|     "type"    	| property which will be looked for grouping in json object                                                                                                                                                                                                                                                                                                                         	|
 | childElement 	| string 	|    children   	| property which will be looked for child elements in json object for deep grouping                                                                                                                                                                                                                                                                                                 	|
 | prefix       	| string 	|     empty     	| string which will be appended to generated grouped header's groupBy propery                                                                                                                                                                                                                                                                                                       	|
+| generateId       	| boolean 	|     true     	| unique id generate for each group header                                                                                                                                                                                                                                                                                                       	|
 
 # Change log
 ----

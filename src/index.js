@@ -1,8 +1,11 @@
+import { generateKey } from "./utils/common";
+
 const defaults = {
     aliases: [],
     groupBy: "type",
     childElement: "children",
-    prefix: ""
+    prefix: "",
+    generateId: true
 }
 
 const groupBy = (array, options = {}) => {
@@ -33,6 +36,10 @@ const groupBy = (array, options = {}) => {
                 [config.groupBy]: `${config.prefix}${v[config.groupBy]}`,
                 [config.childElement]: []
             };
+
+            if(config.generateId)
+                groupedItem.id = generateKey();
+
             result.push(groupedItem);
         }
 

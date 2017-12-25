@@ -1,4 +1,4 @@
-import { generateKey } from "./utils/common";
+import {generateKey} from "./utils/common";
 
 const defaults = {
     aliases: [],
@@ -37,14 +37,13 @@ const groupBy = (array, options = {}) => {
                 [config.childElement]: []
             };
 
-            if(config.generateId)
+            if (config.generateId) 
                 groupedItem.id = generateKey();
-
+            
             result.push(groupedItem);
         }
 
-        groupedItem
-        [config.childElement].push(child);
+        groupedItem[config.childElement].push(child);
     });
     return result;
 };

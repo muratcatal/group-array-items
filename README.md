@@ -143,12 +143,7 @@ You will have an output as below format
 
 # Change log
 ----
- - v1.0.3
- Webpack configuration fixed
- - v.1.0.2
-  Package.json configuration fixed
-- v.1.0.0
-Initial release
+To access CHANGELOG.md file [click here](./CHANGELOG.md)
 # Contributing
 ----
 I'd be very happy if you feedback any issue
